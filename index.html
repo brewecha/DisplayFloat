@@ -7,7 +7,7 @@
         <link rel='stylesheet' type='text/css' href='style.css'>
     </head>
     <body>
-        <h1>Black Elements</h1>
+        <h1>Block Elements</h1>
         <p>Black elements start each element on a new line and take up 
             the entire width of the page. Examples are: div, h1, p, ul, 
             ol, section, article, footer, and header.</p>
@@ -29,7 +29,8 @@
         <h1>Inline-Block</h1>
 
         <p>This is used as a display property is the CSS file. It allows a 
-            BLOCK element to act like an INLINE element.</p>
+            BLOCK element to act like an INLINE element. This only works if 
+            you add a WIDTH to the elements.</p>
 
         <div id='inline-block-1'>
             HEY FROM #1
@@ -38,5 +39,45 @@
         <div id='inline-block-2'>
             HEY FROM #2
         </div>
+
+        <h1>
+            Float Property
+        </h1>
+        <p> Float property is used to move an elemnt to one side of the page, 
+            either right or left. Float elements must also have a width.</p>
+
+            <div id='float-right'>
+                Right
+            </div> 
+
+            <div id='float-left'>
+                Left
+            </div>
+
+            <div id='float-center'>
+                Content
+            </div>
+
+            <p>To put an element underneath or outside if floated ekements, 
+                we can use the CLEAR property to do so</p>
+                <div id='float-right'>
+                        Right
+                    </div> 
+        
+                    <div id='float-left'>
+                        Left
+                    </div>
+        
+                    <div id='float-center'>
+                        Content
+                    </div>
+            <div id='clear-left'> CLEAR LEFT</div>
+            <div id='clear-right'>CLEAR RIGHT</div>
+
+            <div id='float-footer'>
+                FOOTER
+            </div>
+
+           
     </body>
 </html>
